@@ -12,7 +12,7 @@
 
       try {
 
-        self::$con = new PDO( 'mysql:charset=utf8mb4;host=localhost;port=3306;dbname=php_login', 'root', '376djogg' );
+        self::$con = new PDO( 'mysql:charset=utf8mb4;host=localhost;port=3306;dbname=php_login', 'root', '****' );
         self::$con->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
         self::$con->setAttribute( PDO::ATTR_PERSISTENT, false );
 
